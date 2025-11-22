@@ -192,6 +192,15 @@
         <Reference Include="Plugins">
           <HintPath>E:\SteamLibrary\steamapps\common\Escape from Duckov\Duckov_Data\Managed\Plugins.dll</HintPath>
         </Reference>
+        <Reference Include="Razer.WyvrnSDK.Editor">
+          <HintPath>E:\SteamLibrary\steamapps\common\Escape from Duckov\Duckov_Data\Managed\Razer.WyvrnSDK.Editor.dll</HintPath>
+        </Reference>
+        <Reference Include="Razer.WyvrnSDK.Runtime">
+          <HintPath>E:\SteamLibrary\steamapps\common\Escape from Duckov\Duckov_Data\Managed\Razer.WyvrnSDK.Runtime.dll</HintPath>
+        </Reference>
+        <Reference Include="Razer.WyvrnSDK.Tests">
+          <HintPath>E:\SteamLibrary\steamapps\common\Escape from Duckov\Duckov_Data\Managed\Razer.WyvrnSDK.Tests.dll</HintPath>
+        </Reference>
         <Reference Include="sc.modeling.splines.runtime">
           <HintPath>E:\SteamLibrary\steamapps\common\Escape from Duckov\Duckov_Data\Managed\sc.modeling.splines.runtime.dll</HintPath>
         </Reference>
@@ -622,6 +631,7 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Class1.cs"/>
+        <Compile Include="ModConfigAPI.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
